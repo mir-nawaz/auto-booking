@@ -1,0 +1,19 @@
+{
+  "test":{
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://mongo:27017/TodoAppTest",
+    "Environment": "TEST",
+    "SENDGRID_API_KEY": "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",
+    "JWT_SECRET": "secret_token",
+    "FROM_EMAIL": "inbox.mirnawaz@gmail.com"
+
+  },
+  "development":{
+    "PORT": 3000,
+    "MONGODB_URI": "mongodb://localhost:27017/autoBooking",
+    "Environment": "DEV",
+    "SENDGRID_API_KEY": "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",
+    "JWT_SECRET": "secret_token",
+    "FROM_EMAIL": "inbox.mirnawaz@gmail.com"
+  }
+}

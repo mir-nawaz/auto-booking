@@ -1,0 +1,8 @@
+node_modules/
+playground/
+.env
+.idea
+*-lock.json
+.eslintcache
+logs/**
+!logs/.keep
